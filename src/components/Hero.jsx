@@ -4,18 +4,18 @@ export default function Hero() {
   {/* Left Side: Text */}
   <div className="text-center md:text-left md:w-1/2 px-6">
   <h2 className="text-3xl font-bold mb-4">
-   Building Scalable Web Solutions with Modern Technologies
+   Design & Building Scalable AI Automation Solutions with Modern Technologies
   </h2>
   <p className="text-lg">
-    Software Engineer | MERN Stack Developer | Frontend & Backend Specialist | BSCS Graduate | Freelance Web Solutions | Data Analyst & Business Intelligence
+  Agentic AI & Automation Engineer | Prompt Engineering | Software Engineer | DevOps | AI-Driven UI/UX Designer | Digital Marketing | MERN Stack | WordPress & Web Solutions | Freelance Growth Strategist
   </p>
 </div>
 
 
   {/* Right Side: Image with Caption */} 
   <div className="mt-8 md:mt-0 md:w-1/3 flex flex-col items-center"> 
-  <img src="/my-portfolio/images/profile.png" 
-  alt="Shamsher Ali" className="rounded-full w-48 h-48 border-4 border-white shadow-lg object-cover" /> 
+  <img src="/my-portfolio/images/shamsher.png" 
+  alt="Shamsher Ali" className="rounded-full w-60 h-60 border border-white shadow-lg object-cover" /> 
   <p className="mt-4 text-lg font-bold">SHAMSHER ALI</p> 
   </div>
 

@@ -2,6 +2,25 @@ export default function Skills() {
   const skills = [
     
     {
+      title: "AI Automation ",
+      icon: "/my-portfolio/images/AIAutomation.png",      
+    }, 
+    
+    {
+      title: "UI/UX Design ",
+      icon: "/my-portfolio/images/uiux.png",      
+    }, 
+    
+    {
+      title: "Figma",
+      icon: "/my-portfolio/images/figma.png",      
+    }, 
+    
+    {
+      title: "WordPress CMS",
+      icon: "/my-portfolio/images/wordpress.png",      
+    }, 
+    {
       title: "HTML 5 ",
       icon: "/my-portfolio/images/html5.png",      
     },
@@ -12,30 +31,6 @@ export default function Skills() {
     {
       title: "JavaScript",
       icon: "/my-portfolio/images/js.png",      
-    },
-    {
-      title: "Bootstrap 5",
-      icon: "/my-portfolio/images/bootstrap.png",      
-    },
-    {
-      title: "React Js",
-      icon: "/my-portfolio/images/reactjs.png",      
-    },
-    {
-      title: "Tailwind CSS ",
-      icon: "/my-portfolio/images/tailwindcss.png",      
-    },
-    {
-      title: "Node JS",
-      icon: "/my-portfolio/images/nodejs.png",      
-    },
-    {
-      title: "Express JS",
-      icon: "/my-portfolio/images/expressjs.png",      
-    },
-    {
-      title: "Mongo DB",
-      icon: "/my-portfolio/images/mongodb.png",      
     },
     {
       title: "Advanced Excel",
@@ -54,24 +49,8 @@ export default function Skills() {
       icon: "/my-portfolio/images/postgresql.svg",    
     },
     {
-      title: "Microsoft Power BI",
-      icon: "/my-portfolio/images/pbi.png",    
-    },
-    {
-      title: "Tableau",
-      icon: "/my-portfolio/images/tableau.png",    
-    },
-    {
       title: "Python",
       icon: "/my-portfolio/images/python.svg",    
-    },
-    {
-      title: "Pandas",
-      icon: "/my-portfolio/images/Pandas.svg",    
-    },
-    {
-      title: "NumPy",
-      icon: "/my-portfolio/images/NumPy.svg",    
     }
     
   ];

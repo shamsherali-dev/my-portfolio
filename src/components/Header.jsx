@@ -12,13 +12,13 @@ export default function Header() {
         {/* Mobile: only name */}
          <span className="md:hidden">Shamsher Ali</span>
           {/* Desktop: full title */} 
-         <span className="hidden md:inline">Shamsher Ali | Web-Dev </span> </h1>
+         <span className="hidden md:inline">Shamsher Ali | AI Automation Engineer </span> </h1>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-4">
         <a href="#skills" className="hover:text-yellow-400">Skills</a>
         <a href="#projects" className="hover:text-yellow-400">Projects</a>
-        <a href="#certifications" className="hover:text-yellow-400">Certifications</a>
+        {/* <a href="#certifications" className="hover:text-yellow-400">Certifications</a> */}
         <a href="#contact" className="hover:text-yellow-400">Contact</a>
       </nav>
 
