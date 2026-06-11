@@ -7,12 +7,12 @@ export default function Header() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header className="bg-gray-900 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+    <header className="bg-slate-900 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
       <h1 className="text-xl font-bold hover:text-yellow-400"> 
         {/* Mobile: only name */}
          <span className="md:hidden">Shamsher Ali</span>
           {/* Desktop: full title */} 
-         <span className="hidden md:inline">Shamsher Ali | AI Automation Engineer </span> </h1>
+         <span className="hidden md:inline">Shamsher Ali | DevOps & DevSecOps Engineer </span> </h1>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-4">

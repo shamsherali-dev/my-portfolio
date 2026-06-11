@@ -1,68 +1,63 @@
 export default function Skills() {
   const skills = [
-    
     {
-      title: "AI Automation ",
-      icon: "/my-portfolio/images/AIAutomation.png",      
-    }, 
-    
-    {
-      title: "UI/UX Design ",
-      icon: "/my-portfolio/images/uiux.png",      
-    }, 
-    
-    {
-      title: "Figma",
-      icon: "/my-portfolio/images/figma.png",      
-    }, 
-    
-    {
-      title: "WordPress CMS",
-      icon: "/my-portfolio/images/wordpress.png",      
+      title: "AWS Cloud",
+      icon: "/my-portfolio/images/aws.png",       
     }, 
     {
-      title: "HTML 5 ",
-      icon: "/my-portfolio/images/html5.png",      
+      title: "Terraform",
+      icon: "/my-portfolio/images/terraform.png",       
+    }, 
+    {
+      title: "Ansible",
+      icon: "/my-portfolio/images/ansible.png",       
+    }, 
+    {
+      title: "Docker",
+      icon: "/my-portfolio/images/docker.png",       
     },
     {
-      title: "CSS 3 ",
-      icon: "/my-portfolio/images/css3.png",      
+      title: "Kubernetes",
+      icon: "/my-portfolio/images/kubernetes.png",       
     },
     {
-      title: "JavaScript",
-      icon: "/my-portfolio/images/js.png",      
+      title: "Jenkins",
+      icon: "/my-portfolio/images/jenkins.png",       
     },
     {
-      title: "Advanced Excel",
-      icon: "/my-portfolio/images/microsoft-excel.svg",      
+      title: "GitHub Actions",
+      icon: "/my-portfolio/images/github-actions.png",       
     },
     {
-      title: "AI + Prompting ",
-      icon: "/my-portfolio/images/ai.png",      
+      title: "GitLab CI",
+      icon: "/my-portfolio/images/gitlab.png",       
     },
     {
-      title: "Power Query",
-      icon: "/my-portfolio/images/pq.png",    
+      title: "Linux Administration",
+      icon: "/my-portfolio/images/linux.png",       
     },
     {
-      title: "MYSQL & PostGreSQL",
-      icon: "/my-portfolio/images/postgresql.svg",    
+      title: "Security & Compliance",
+      icon: "/my-portfolio/images/shield.png",    
     },
     {
-      title: "Python",
+      title: "Monitoring (Prometheus/Grafana)",
+      icon: "/my-portfolio/images/monitoring.png",    
+    },
+    {
+      title: "Python (Automation)",
       icon: "/my-portfolio/images/python.svg",    
     }
-    
   ];
 
   return (
-    <section id="skills" className="p-8 bg-white">
-      <h3 className="text-2xl font-bold mb-4 text-center">Area of Expertise</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <section id="skills" className="p-8 bg-slate-50">
+      <h3 className="text-3xl font-bold mb-8 text-center text-slate-800">Technical Expertise</h3>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
         {skills.map(dt => (
-          <div key={dt.title} className="bg-gray-100 p-4 rounded shadow text-center font-semibold">
-            <img src={dt.icon} alt={dt.title} className="mx-auto h-12 w-12 mb-2" />
-            {dt.title}
+          <div key={dt.title} className="bg-white p-6 rounded-xl shadow-md border border-slate-200 text-center font-semibold hover:border-blue-500 transition-all duration-300">
+            <img src={dt.icon} alt={dt.title} className="mx-auto h-12 w-12 mb-4" />
+            <span className="text-sm text-slate-700">{dt.title}</span>
           </div>
         ))}
       </div>
