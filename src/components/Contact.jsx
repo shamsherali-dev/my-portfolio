@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp, FaFileDownload } from "react-icons/fa";
 import { MdEmail, MdSecurity } from "react-icons/md";
 
 export default function Contact() {
@@ -14,7 +14,7 @@ export default function Contact() {
         </p>
 
         {/* Contact Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {[
             { href: "mailto:shamsherali.devops@gmail.com", icon: <MdEmail />, label: "Email", value: "shamsherali.devops@gmail.com" },
             { href: "https://www.linkedin.com/in/shamsherali-dev/", icon: <FaLinkedin />, label: "LinkedIn", value: "shamsherali-dev" },
@@ -35,6 +35,18 @@ export default function Contact() {
               <span className="text-sm text-gray-400 mt-1 break-all">{item.value}</span>
             </a>
           ))}
+        </div>
+
+        {/* Download CV Button */}
+        <div className="mt-8">
+          <a 
+            href="/my-portfolio/documents/Shamsher_Ali_DevOps_CV.pdf" 
+            download
+            className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:shadow-blue-500/30 transform hover:scale-105"
+          >
+            <FaFileDownload className="text-xl" />
+            Download CV
+          </a>
         </div>
       </div>
     </section>
