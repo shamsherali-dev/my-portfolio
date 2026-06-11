@@ -45,7 +45,7 @@ export default function Contact() {
             className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:shadow-blue-500/30 transform hover:scale-105"
           >
             <FaFileDownload className="text-xl" />
-            Download CV
+            Download CV 
           </a>
         </div>
       </div>
