@@ -40,7 +40,7 @@ export default function Contact() {
         {/* Download CV Button */}
         <div className="mt-8">
           <a 
-            href="/my-portfolio/documents/Shamsher_Ali_DevOps_CV.pdf" 
+            href="/my-portfolio/documents/ShamsherAli_devops_cv.pdf" 
             download
             className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:shadow-blue-500/30 transform hover:scale-105"
           >
