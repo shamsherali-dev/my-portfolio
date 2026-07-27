@@ -19,7 +19,7 @@ export default function Hero() {
           className="rounded-full w-60 h-60 border-4 border-blue-500 shadow-xl object-cover" 
         /> 
         <p className="mt-4 text-xl font-bold tracking-widest">SHAMSHER ALI</p>
-        <p className="text-blue-400 font-medium">DevOps & DevSecOps Engineer </p>
+        <p className="text-blue-400 font-medium">DevOps & DevSecOps Engineer</p>
       </div>
     </section>
   );
