@@ -38,7 +38,7 @@ export default function Contact() {
         </div>
 
         {/* Download CV Button */}
-        <div className="mt-8">
+        {/* <div className="mt-8">
           
           <a 
             href="/my-portfolio/documents/ShamsherAli_devops_cv.pdf" 
@@ -48,7 +48,7 @@ export default function Contact() {
             <FaFileDownload className="text-xl" />
             Download CV 
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

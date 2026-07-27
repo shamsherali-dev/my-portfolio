@@ -4,10 +4,10 @@ export default function Hero() {
       {/* Left Side: Text */}
       <div className="text-center md:text-left md:w-1/2 px-6">
         <h2 className="text-4xl font-bold mb-4">
-          Architecting Secure, Scalable, & Automated Infrastructure
+       Architecting Secure, Scalable, & Automated Infrastructure
         </h2>
         <p className="text-xl mb-6">
-          DevOps & DevSecOps Engineer | BS Computer Science (2023) | AWS Cloud | Terraform & Ansible | CI/CD Pipeline Orchestration | Docker & Kubernetes | Security & Compliance Automation
+        DevOps & DevSecOps Engineer | BS Computer Science | AWS Cloud | Terraform & Ansible | CI/CD Pipeline Orchestration | Docker & Kubernetes | Security & Compliance Automation
         </p>
       </div>
 
@@ -19,7 +19,7 @@ export default function Hero() {
           className="rounded-full w-60 h-60 border-4 border-blue-500 shadow-xl object-cover" 
         /> 
         <p className="mt-4 text-xl font-bold tracking-widest">SHAMSHER ALI</p>
-        <p className="text-blue-400 font-medium">DevOps & DevSecOps Engineer</p>
+        <p className="text-blue-400 font-medium">DevOps & DevSecOps Engineer </p>
       </div>
     </section>
   );
